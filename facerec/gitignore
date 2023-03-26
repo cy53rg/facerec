@@ -1,0 +1,64 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+*.egg-info/
+dist/
+build/
+venv/
+__pycache__/
+
+# Distribution / packaging #
+#############################
+*.egg
+*.egg-info
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+man/
+share/
+# If you remove this file, django will fail to start.
+# Uncomment the next line to ignore the app database, 
+# but keep the sqlite database for migrations
+*.sqlite3
+
+# Environment #
+##############
+.env
+.env.local
+.env.*.local
+env/
+venv/
+ENV/
+
+# IDE #
+#######
+.idea/
+*.pyc
+.vscode/
+*.swp
+*.swo
+
+# Logs #
+########
+logs/
+*.log
+*.pot
+*.po
+*.mo
+__pycache__/
